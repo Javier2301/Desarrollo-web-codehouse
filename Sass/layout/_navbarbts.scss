@@ -1,0 +1,155 @@
+.navbar{
+    &:hover{
+        background: linear-gradient(rgba(157, 82, 72, 0.724), rgba(255, 255, 255, 0));
+    }
+}
+
+.navbar-toggler{
+    border: none !important;
+    padding-right: 120px !important;
+
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.main-logo{
+    width: 200px;
+}
+
+#right-hand-links{
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.offcanvas{
+    width: 350px !important;
+    font-size: 20px;
+    background-color: $secondary-color !important;
+}
+
+.btn-close{
+    &:focus{
+        box-shadow: none !important;
+    }
+}
+
+.offcanvas-body{
+    padding: 0 !important;
+}
+
+.nav-link{
+    padding-left: 20px !important;
+    transition: 0s;
+
+    &:hover{
+        background: linear-gradient(to right, $primary-color, rgba(255, 255, 255, 0));
+        color: $secondary-color !important;
+    }
+}
+
+.dropdown-menu{
+    background-color: $secondary-color !important;
+    border: none !important;
+}
+
+.dropdown-item{
+    font-size: 20px;
+    padding-left: 30px !important;
+
+    &:hover{
+        background: linear-gradient(to right, $primary-color, rgba(255, 255, 255, 0));
+        color: $secondary-color !important;
+    }
+
+    &:active{
+        background: linear-gradient(to right, $primary-color, rgba(255, 255, 255, 0)) !important;
+        color: $secondary-color !important;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 436px){
+    .navbar-toggler{
+        padding-right: 0px !important;
+    }
+
+    .navbar-toggler-icon{
+        width: 19px !important;
+        height: 19px !important;
+    }
+
+    .main-logo{
+        width: 120px;
+    }
+
+    #right-hand-links{
+        ul{
+            gap: 10px;
+            font-size: 12px;
+        }
+
+        svg{
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .btn-close{
+        width: 20px !important;
+    }
+
+    .offcanvas{
+        width: 250px !important;
+        font-size: 15px;
+        background-color: $secondary-color !important;
+    }
+}
+
+@media (min-width: 437px) and (max-width: 556px){
+    .navbar-toggler{
+        padding-right: 0px !important;
+    }
+
+    .navbar-toggler-icon{
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .main-logo{
+        width: 130px;
+    }
+
+    #right-hand-links{
+        ul{
+            gap: 10px;
+            font-size: 12px;
+        }
+    }
+
+    .btn-close{
+        width: 20px !important;
+    }
+
+    .offcanvas{
+        width: 250px !important;
+        font-size: 15px;
+    }
+    
+}

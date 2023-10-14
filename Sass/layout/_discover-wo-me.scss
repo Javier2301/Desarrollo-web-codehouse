@@ -1,0 +1,45 @@
+.discover-women-men{
+    height: 70px;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.discover-divs{
+    padding: 0 20px;
+
+    h1{
+        font-size: 20px;
+        color: white;
+        font-weight: lighter;
+    }
+
+    button{
+        padding: 10px 15px;
+        border-radius: 45%;
+        border-width: 1px;
+        background-color: $secondary-color;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 550px)
+{
+    .discover-women-men{
+        height: 55px;
+    }
+
+    .discover-divs{
+        h1{
+            font-size: 17px;
+        }
+
+        button{
+            font-size: 12px;
+        }
+    }
+}

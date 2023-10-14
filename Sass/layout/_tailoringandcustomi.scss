@@ -1,0 +1,177 @@
+.tailor-custo-title{
+    margin: 70px 0 50px 0;
+    padding: 20px 20px 20px 30px;
+    background-color: $primary-color;
+    color: white;
+    
+        h1{
+            font-size: 25px;
+            margin: 0;
+        }
+}
+
+#div-personal-tailoring{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+
+    div{
+        
+        width: 400px;
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: bottom;
+            margin-bottom: 15px;
+            transition: 500ms;
+            
+            &:hover{
+                height: 90%;
+                object-fit: cover;
+            }
+        }
+
+        p{
+            font-size: 20px;
+            text-align: justify;
+            line-height: 25px;   
+        }
+    }
+}
+
+#customization-introduction{
+    display: flex;
+    flex-direction: column;
+    width: $full-width;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+    div{
+        width: 45%;
+        font-size: 18px;
+        
+        img{
+            width: $full-width - 20%;
+        }
+    }
+}
+
+#video-made-to-order{
+    width: $full-width;
+    margin-top: 20px;
+}
+
+#video-2{
+    width: $full-width;
+    margin-bottom: 30px;
+}
+
+#custo-start-button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+    a{
+        width: 45px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        line-height: 15px;
+        transition: 800ms;
+
+        &:hover{
+            line-height: 30px;
+        }
+    }
+}
+
+@media (min-width: 300px) and (max-width: 550px){
+    #div-personal-tailoring{
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        gap: 170px;
+
+        div{
+            height: 600px;
+            width: 85%;
+            margin-bottom: 30px;
+
+            img{
+                height: 100%;
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    
+    #customization-introduction{
+        div{
+            width: 80%;
+
+            img{
+                width: $full-width;
+            }
+        }
+    }
+    
+    #video-made-to-order{ 
+        height: $full-vhe - 35;
+    }
+    
+    #video-2{ 
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #custo-start-button{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1000px){
+    #div-personal-tailoring{
+        margin-bottom: 250px;
+
+        div{
+            height: 600px;
+            width: 33%;
+
+            p{
+                width: 90%;
+                padding-left: 12px;
+            }
+        }
+    }
+
+    #customization-introduction{
+        div{
+            width: 80%;
+
+            img{
+                width: $full-width;
+            }
+        }
+    }
+
+    #custo-start-button{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1001px){
+    #div-personal-tailoring{
+        div{
+            p{
+                width: 90%;
+                padding-left: 12px;
+            }
+        }
+    }
+}

@@ -3,151 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personalize your style with precision at Massimo Dutti. Experience our expert tailoring service, where every garment is meticulously crafted to your unique preferences.">
+    <meta name="keywords" content="Tailoring, Customization, Personalized tailoring, Clothing alterations, Bespoke clothing, Made-to-measure, Expert tailoring, Professional tailoring, Garment customization, Personalized fashion, Men's tailoring, Women's tailoring, Custom garment service, Fashion customization, Tailored garments">
     <title>Tailoring and customization | Massimo Dutti</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../Assets/Pictures/mini-logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+<body style="background-color: rgb(246, 241, 222);">
+    <nav class="navbar fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="../index.html"><img class="main-logo" src="../Assets/Pictures/pngegg.png" alt="Massimo Dutti main page logo"></a>
+            <div id="right-hand-links">
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1rem" width="1rem" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg></a>
+                </li>
+            </ul>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./discoverwomen.html">Discover women</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./discovermen.html">Discover men</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./tailoringandcustomization.html">Tailoring and customization</a></li>
+                    <li><a class="dropdown-item" href="./specialwrapping.html">Special Wrapping</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://maps.app.goo.gl/kz9RR3GoHb2vsHRN9" target="_blank">Find a store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
 
-<!--Navegation Bar-->
-
-<nav id="navegation-bar">
-    <div id="left-icon">
-        <a href="#">&#9776;</a>
-    </div>
-    <div id="main-logo">
-        <a href="../index.html"><img src="../Assets/Pictures/pngegg.png" alt="Massimo main page logo"></a>
-    </div>
-    <div id="right-hand-logos">
-        <ul id="right-hand-logos-list">
-            <li><a href="#">&#8981;  Search</a></li>
-            <li><a href="#">Sign in</a></li>
-            <li><a href="#"><img id="bag-icon" src="../Assets/Pictures/shopping cart.png" alt="shopping cart mini logo"></a></li>
-        </ul>
-    </div>
-</nav>
-
-<!--title 1-->
-<header class="tailor-custo-title">
-    <h1>Personal Tailoring</h1>
-</header>
-<section>
-    <div id="div-personal-tailoring">
-        <div class="sub-block-tailoring">
-            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_1.jpg" alt="">
+    <header class="animate__animated animate__fadeInLeftBig tailor-custo-title">
+        <h1>Personal Tailoring</h1>
+    </header>
+    <section id="div-personal-tailoring">
+        <div>
+            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_1.jpg" alt="Massimo Dutti carousel of men dressed up casually wearing tailored garments">
             <p>Our journey begins with a personalized consultation where our skilled and passionate tailors take the time to understand your desires, lifestyle, and aspirations.</p>
         </div>
-        <div class="sub-block-tailoring">
-            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_2.jpg" alt="">
+        <div>
+            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_2.jpg" alt="Massimo Dutti carousel of men dressed up casually wearing tailored garments">
             <p>We listen attentively to your vision, providing expert guidance and suggestions to create a design that reflects your unique personality.</p>
         </div>
-        <div class="sub-block-tailoring">
-            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_3.jpg" alt="">
+        <div>
+            <img src="https://i1.adis.ws/i/tom_ford/MTM_CAROUSEL_3.jpg" alt="Massimo Dutti carousel of men dressed up casually wearing tailored garments">
             <p>Every stitch is a testament from our master tailors who are dedicated to reach perfection, ensuring that your tailored piece not only fits flawlessly but also radiates sophistication.</p>
         </div>
-    </div>
-    <div id="locate-retailer-button">
-        <a href="#">Locate your nearest retailer &#8964;</a>
-    </div>
-</section>
-
-<header class="tailor-custo-title">
-    <h1>Customization</h1>
-</header>
-<section>
-    <div id="customization-introduction">
-        <div>
-            <p>Our exclusive Made-to-Order Personalisation Service allows you to customise a curated selection of Massimo Dutti garments according to your style and taste, with an extensive possibility of combinations, awarding our signature pieces a literal sense of uniqueness.</p>
-        </div>
-        <div>
-            <img src="../Assets/Pictures/Shop internal.jpg" alt="">
-        </div>
-        <div>
-            <h2>Made to order</h2>
-        </div>
-    </div>
-</section>
-<section>
-    <div id="video-made-to-order">
-        <video id="video-2" autoplay loop muted src="../Assets/videos/Vídeo sin título ‐ Hecho con Clipchamp (1).mp4"></video>
-    </div>
-    <div id="custo-start-button">
-        <a href="#">Start &#8964;</a>
-    </div>
-</section>
-
-<body style="background-color: beige;">
-</body>
-
-<!--Footer-->
-<footer>
-    <div id="div-footer">
-        <div class="footer-section">
-            <h3>Discover your nearest store</h3>
-            <iframe class="iframe-footer" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63622.43524169579!2d-74.08472900886981!3d4.699982834976535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab275fa081f%3A0xd46d167ed5465a76!2sMassimo%20Dutti!5e0!3m2!1sen!2sco!4v1695940149603!5m2!1sen!2sco%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p style="margin-bottom: 10px;">Experiece our Massimo retail stores in person</p>
-            <a id="find-store-a-footer" href="https://maps.app.goo.gl/kz9RR3GoHb2vsHRN9" target="_blank" >Find a store &gt;</a>
-        </div>
-        <div class="footer-section">
-            <h3>Help</h3>
-            <ul>
-                <li><a href="#">Contact me</a></li>
-                <li><a href="#">Delivery</a></li>
-                <li><a href="#">Returns and exchanges</a></li>
-                <li><a href="#">Warranty</a></li>
-                <li><a href="#">Size Charts</a></li>
-                <li><a href="#">Locate your order</a></li>
-                <li><a href="#">FAQs</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Services</h3>
-            <ul>
-                <li><a href="../pages/tailoringandcustomization.html">Tailoring and customization</a></li>
-                <li><a href="../pages/specialwrapping.html">Special wrapping</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>About</h3>
-            <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Latest news</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Subscribe to our newsletter</h3>
-            <div id="newsletter-input">
-                <input type="text" placeholder="Email">
-                <button>Subscribe</button>
+    </section>
+    
+    <header class="animate__animated animate__fadeInLeftBig tailor-custo-title">
+        <h1>Customization</h1>
+    </header>
+    <section>
+        <div id="customization-introduction">
+            <div>
+                <p>Our exclusive Made-to-Order Personalisation Service allows you to customise a curated selection of Massimo Dutti garments according to your style and taste, with an extensive possibility of combinations, awarding our signature pieces a literal sense of uniqueness.</p>
             </div>
-            <ul id="social-media-icons">
-                <li><a href="https://www.instagram.com/massimodutti/?hl=en" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" alt=""></a></li>
-                <li><a href="https://www.facebook.com/MassimoDuttiEsp/?brand_redir=135537833142512&locale=es_LA" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/facebook-icon-white-png-1200x1200.png" alt=""></a></li>
-                <li><a href="https://www.youtube.com/@MassimoDuttiOfficial" target="_blank"><img src="https://clipart-library.com/images/dc4LABqni.png" alt=""></a></li>
-                
-            </ul>
+            <div>
+                <img src="../Assets/Pictures/Shop internal.jpg" alt="Massimo Dutti store interior">
+            </div>
+            <div>
+                <h2>Made to order</h2>
+            </div>
         </div>
-    </div>
+    </section>
+    <section>
+        <div id="video-made-to-order">
+            <video id="video-2" autoplay loop muted src="../Assets/videos/Vídeo sin título ‐ Hecho con Clipchamp (1).mp4"></video>
+        </div>
+        <div id="custo-start-button">
+            <a href="#">Start &#8964;</a>
+        </div>
+    </section>
 
-<!--Under footer--> 
-
-    <div id="div-under-footer">
-        <div class="left-hand-underfooter-logo">
-            <img src="../Assets/Pictures/pngegg.png" alt="">
+    <footer>
+        <div id="div-footer">
+            <div class="footer-section">
+                <h3>Discover your nearest store</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63622.43524169579!2d-74.08472900886981!3d4.699982834976535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ab275fa081f%3A0xd46d167ed5465a76!2sMassimo%20Dutti!5e0!3m2!1sen!2sco!4v1695940149603!5m2!1sen!2sco%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p style="margin-bottom: 10px;">Experiece our Massimo retail stores in person</p>
+                <a id="find-store-a-footer" href="https://maps.app.goo.gl/kz9RR3GoHb2vsHRN9" target="_blank" >Find a store &gt;</a>
+            </div>
+            <div class="footer-section">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Returns and exchanges</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Size Charts</a></li>
+                    <li><a href="#">Locate your order</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="./pages/tailoringandcustomization.html">Tailoring and customization</a></li>
+                    <li><a href="./pages/specialwrapping.html">Special wrapping</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Latest news</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Subscribe to our newsletter</h3>
+                <div id="newsletter-input">
+                    <input type="text" placeholder="Email">
+                    <button>Subscribe</button>
+                </div>
+                <ul id="social-media-icons">
+                    <li><a href="https://www.instagram.com/massimodutti/?hl=en" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-Instagram-logo-white-glyph.png" alt="Massimo Dutti Instagram logo"></a></li>
+                    <li><a href="https://www.facebook.com/MassimoDuttiEsp/?brand_redir=135537833142512&locale=es_LA" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/facebook-icon-white-png-1200x1200.png" alt="Massimo Dutti Facebook logo"></a></li>
+                    <li><a href="https://www.youtube.com/@MassimoDuttiOfficial" target="_blank"><img src="https://clipart-library.com/images/dc4LABqni.png" alt="Massimo Dutti YouTube logo"></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="middle-underfooter-div">
-            <p>Copyright 2023 Massimo Dutti</p>
+    
+        <div id="div-under-footer">
+            <div class="left-hand-underfooter-logo">
+                <img src="../Assets/Pictures/pngegg.png" alt="Massimo Dutti underfooter logo">
+            </div>
+            <div class="middle-underfooter-div">
+                <p>Copyright 2023 Massimo Dutti</p>
+            </div>
+            <div class="right-hand-underfooter-logos">
+                <ul>
+                    <li>USA|EN</li>
+                    <li><img src="../Assets/Pictures/Americanexpress.png" alt="American Express logo"></li>
+                    <li><img src="../Assets/Pictures/VISA.png" alt="Visa logo"></li>
+                    <li><img src="../Assets/Pictures/Mastercard.png" alt="Mastercard logo"></li>
+                    <li><img src="../Assets/Pictures/Diners.png" alt="Diners club international logo"></li>
+                </ul>
+            </div>
         </div>
-        <div class="right-hand-underfooter-logos">
-            <ul>
-                <li>USA|EN</li>
-                <li><img class="right-hand-underfooter-minilogos" src="../Assets/Pictures/Americanexpress.png" alt=""></li>
-                <li><img class="right-hand-underfooter-minilogos" src="../Assets/Pictures/VISA.png" alt=""></li>
-                <li><img class="right-hand-underfooter-minilogos" src="../Assets/Pictures/Mastercard.png" alt=""></li>
-                <li><img class="right-hand-underfooter-minilogos" src="../Assets/Pictures/Diners.png" alt=""></li>
-            </ul>
-        </div>
-    </div>
-</footer>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>
